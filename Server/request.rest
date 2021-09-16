@@ -1,0 +1,14 @@
+GET http://localhost:8000/users
+
+### 
+
+POST http://localhost:8000/buses HTTP/1.1
+content-type: application/json
+
+{
+    "busTypeName":"SEABIRD TOURISTS",
+    "travelerAgentName":"AC Sleeper (2 + 1)",
+    
+}
+
+
